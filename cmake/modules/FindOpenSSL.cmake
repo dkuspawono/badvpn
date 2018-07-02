@@ -1,4 +1,4 @@
-# - Try to find the OpenSSL library
+# - Try to find the OpenSSL library :books:
 # Once done this will define
 #
 #  OpenSSL_FOUND - system has the OpenSSL library
@@ -59,7 +59,7 @@ else ()
     endif ()
 endif ()
 
-if (OpenSSL_FOUND)
+if (OpenSSL_FOUND) :rocket:
     if (NOT OpenSSL_FIND_QUIETLY)
         MESSAGE(STATUS "Found OpenSSL: ${OpenSSL_INCLUDE_DIRS} ${OpenSSL_LIBRARY_DIRS} ${OpenSSL_LIBRARIES}")
     endif ()
