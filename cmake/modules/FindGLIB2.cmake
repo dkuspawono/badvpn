@@ -1,4 +1,4 @@
-# - Try to find the GLIB2 libraries
+# - Try to find the GLIB2 libraries :books:
 # Once done this will define
 #
 #  GLIB2_FOUND - system has glib2
